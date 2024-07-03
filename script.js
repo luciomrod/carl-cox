@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let isSquirtle = true;
 
     setInterval(() => {
-        message.textContent = isSquirtle ? 'Squirtle' : '';
+        message.textContent = isSquirtle ? 'Oh Yes Oh Yes!!!' : '';
         if (isSquirtle) {
-            squirtleSound.currentTime = 0;
+            squirtleSound.currentTime = 3.9;
             squirtleSound.play();
         }
         isSquirtle = !isSquirtle;
